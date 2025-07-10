@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "get-papers"
+version = "0.1.0"
+description = "Fetch and filter research papers from PubMed"
+authors = ["Pinky Gupta <pinkkygupta1@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "papers" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.83"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
